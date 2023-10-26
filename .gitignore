@@ -1,0 +1,9 @@
+backend/.venv
+backend/backend/media
+backend/backend/db.sqlite3
+backend/backend/backend/.env
+backend/backend/damage_reports/migrations
+backend/backend/damage_reports/__pycache__
+backend/backend/damage_reports/migrations
+backend/backend/backend/__pycache__
+frontend/node_modules

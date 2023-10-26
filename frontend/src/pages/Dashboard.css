@@ -1,0 +1,51 @@
+.dashboard-container {
+    padding: 5rem;
+}
+.dashboard-header {
+    font-size: var(--h1-clamp);
+}
+.dashboard-content {
+    margin-top: 5rem;
+}
+.dashboard-filters {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dashboard-filter-group {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+}
+.dashboard-table {
+    margin-top: 2rem;
+}
+#report-state-select, #damage-type-select, #report-order-select {
+    min-width: 250px;
+}
+.clear-filters-wrapper {
+    margin-top:10px;
+}
+.clear-filters-wrapper a {
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 12px;
+}
+.clear-filters-wrapper a:hover {
+    text-decoration: underline;
+}
+.dashboard-table th a {
+    color: #4682B4;
+    text-decoration: none;
+    font-weight: 900;
+}
+.MuiPagination-ul  li button.Mui-selected {
+    background-color: var(--primary);
+}
+.MuiPagination-ul  li button.Mui-selected:hover {
+    background-color: var(--primary);
+}
+  

@@ -1,0 +1,41 @@
+.report-container {
+    margin: 3rem;
+    padding:2rem;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    width: 80%;
+}
+.report-container .report-title {
+    font-size: 2rem;
+}
+.report-details {
+    margin-top: 2rem;
+    display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+    /* max-width: 350px; */
+    column-gap:2rem;
+    row-gap: 2rem;
+    width: 100%;
+}
+.report-details .col {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 350px;
+    column-gap:2rem;
+    row-gap: 2rem;
+    width: 100%;
+}
+.leaflet-container {
+    /* min-width: 400px; */
+    width: 100%;
+}
+
+
+.report-image {
+    max-width: 400px;
+    max-height: 500px;
+    border-radius: 4px;
+}
